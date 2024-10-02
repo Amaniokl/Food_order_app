@@ -57,11 +57,3 @@ Each restaurant in the list links to its own detailed page. When a user clicks o
 
 ---
 
-## Example Screenshots
-
-![Screenshot 2024-09-16 061510](https://github.com/user-attachments/assets/bbd386a8-33f6-4454-b0bb-b5240297e4cd)
-![Screenshot 2024-09-16 061417](https://github.com/user-attachments/assets/1139ef92-536b-4a24-95eb-6edbae5660d4)
-
-https://github.com/user-attachments/assets/035d541a-ecb5-4fd7-b04a-e13da870515d
-
-ps://github.com/user-attachments/assets/f6c8bbd4-18e3-4f37-8106-2b33efb9f1dc)
