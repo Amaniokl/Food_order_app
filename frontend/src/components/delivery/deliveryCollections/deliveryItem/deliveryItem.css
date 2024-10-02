@@ -1,0 +1,39 @@
+.delivery-item-cover {
+  height: 190px;
+  width: 260px;
+  background-color: var(--primary-bg);
+  box-shadow: var(--collection-shadow);
+  border-radius: 8px;
+  overflow: hidden;
+  /* Ensure the image doesn't spill over the borders */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.delivery-item-image {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.delivery-item-title {
+  font-size: 20px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: 6px;
+}
+
+.delivery-item-cover:hover {
+  transform: scale(1.05);
+  /* Slightly enlarge the cover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Add shadow for depth */
+}
+
+.delivery-item-cover:hover .delivery-item-image {
+  transform: scale(1.04);
+  /* Slightly enlarge the image */
+}

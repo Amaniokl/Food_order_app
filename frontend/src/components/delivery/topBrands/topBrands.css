@@ -1,0 +1,36 @@
+.top-brands {
+  padding-top: 30px;
+}
+
+.top-brands-cover {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: var(--primary-bg);
+  box-shadow: var(--collection-shadow);
+  border: 0.5px solid var(--border-white);
+  overflow: hidden;
+  /* Ensure the image doesn't spill over the borders */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.top-brands-image {
+  border-radius: inherit;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.top-brands-cover:hover {
+  transform: scale(1.05);
+  /* Slightly enlarge the cover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Add shadow for depth */
+}
+
+.top-brands-cover:hover .top-brands-image {
+  transform: scale(1.04);
+  /* Slightly enlarge the image */
+}
